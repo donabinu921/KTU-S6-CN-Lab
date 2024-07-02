@@ -31,7 +31,6 @@ int main()
     struct sockaddr_in serveraddr,clientaddr;
     socklen_t len;
     char message[50];
-    struct serveraddr;
     //create socket and initialise server address to zero
     serversocket=socket(AF_INET,SOCK_STREAM,0);
     bzero((char*)&serveraddr,sizeof(serveraddr));
